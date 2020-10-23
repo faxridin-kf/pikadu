@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pikadu-новый пост</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-wrapper">
+      <a class="header-logo" href="/"><img class="header-logo-image" src="img/Pikadu.svg" alt="pikadu"></a>
+      <nav class="header-nav">
+        <ul class="header-menu">
+          <li class="header-menu-item"><a href="#" class="header-menu-link">Свежее</a></li>
+          <li class="header-menu-item"><a href="#" class="header-menu-link">Лучшее</a></li>
+          <li class="header-menu-item"><a href="#" class="header-menu-link">Горячее</a></li>
+          <li class="header-menu-item"><a href="#" class="header-menu-link">Подписки</a></li>
+        </ul>
+      </nav>
+      <!-- /.header-nav -->
+      <div class="input-group search">
+        <input type="search" class="search-input" placeholder="Поиск по сайту">
+        <button class="search-button">
+          <img src="img/Vector.svg" alt="" class="search-icon">
+        </button>
+      </div>
+      <!-- input-group -->
+      <a href="#" class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+    <!-- /.header-wrapper -->
+  </header>
+
+  <!-- /.header -->
+  <div class="content">
+    <main class="posts">
+      <form action="#" class="add-post">
+        <input type="text" name="post-title" class="add-title" placeholder="Заголовог поста">
+        <textarea name="post-text" id="text" class="add-text" placeholder="текст поста"></textarea>
+        <div class="add-buttons">
+          <button class="button add-button">
+            <svg class="icon icon-fire">
+              <use xlink:href="img/icons.svg#fire"></use>
+            </svg>Опубликовать пост</button>
+          <button class="button button-outline">Видео</button><button class="button button-outline"> Фото</button>
+        </div>
+      </form>
+
+    </main>
+    <!-- /.posts -->
+    <aside class="sidebar ">
+      <div class="user">
+        <a href="#" class="user-info">
+          <img width="40px" height="40px" src="img/IMG_20200727_194751_399.jpg" alt="user:name"
+            class="user-avatar"><span class="user-name">Faxridin-kf</span>
+        </a>
+        <!-- /.user-info -->
+        <a href="#" class="exit">
+          <svg class="icon icon-exit">
+            <use xlink:href="img/icons.svg#exit"></use>
+          </svg>
+        </a>
+        <!-- /.exit -->
+      </div>
+      <!-- /.user -->
+      <nav class="sidebar-nav">
+        <ul class="sidebar-menu">
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Ответы </a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link ">Комментарии</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Оценки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link active">Сохраненное</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Подписки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Заметки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Игнор-лист</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#" class="promo"></a>
+    </aside>
+    <!-- /.sidebar -->
+  </div>
+  <!-- /.content -->
+
+  <script src="js/main.js"></script>
+
+</body>
+
+
+</html>
